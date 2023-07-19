@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+:root{
+    --color:#ffff;
+}
+body{
+    height: 100px;
+    background: url(waves.jpg) no-repeat;
+    background-size:100% ;
+    background-position: 0;
+    overflow:hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    position:fixed;
+    top:10px;
+    left:0;
+    height:60px;
+    width:100%;
+    display:felx;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    display:flex;
+    align-items: center;
+}
+.logo > img{
+    height:50px;
+    margin:0 10px;
+    width:50px;
+}
+.navbar{
+    transition: .3s linear;
+}
+.navbar ul{
+    list-style-type: none; 
+    display: flex;
+    align-items: center;
+    width: 400px;
+    justify-content: space-around;
+}
